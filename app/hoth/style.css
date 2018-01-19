@@ -1,0 +1,83 @@
+.body{
+	width: 1000px;
+	padding-left:20px;
+}
+
+div {
+	width: 1000px;
+	padding-left:20px;
+}
+.scrollable {
+	height: 200px;
+	overflow-y: auto;
+}
+
+.row:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.col-sm-2:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.dis {	/*Discussion*/
+	color: #D3D3D3;
+}
+
+h2 {
+  font: 400 28px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 14px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 600px;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+  /*font-size: 30px;*/
+  background: #f6f6f6;
+}
+
+
+input[type=text] {
+	outline: none;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+input[type=text]:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+}
