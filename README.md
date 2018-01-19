@@ -1,5 +1,10 @@
 # ucla_class_calendar_parser
 
+### Dependencies
+
+	- Python 3.x
+	- BeautifulSoup4
+	- Selenium 
 
 This is a hackathon (Hack on the Hill @ UCLA) project by **Brendan Xiong, Chris Lam, Galen Wong (me).**
 
